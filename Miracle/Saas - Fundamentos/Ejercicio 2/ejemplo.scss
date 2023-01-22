@@ -1,0 +1,15 @@
+@mixin proveedor($property, $value) {
+    -webikit-#{$property}: $value;
+    -moz-#{$property}: $value;
+    -ms-#{$property}: $value;
+    -o-#{$property}: $value;
+}  
+
+@mixin margen {
+    margin: 2px 4px;
+    padding: 3px;
+}
+
+@mixin borde {
+    border: 1px 2px;
+}

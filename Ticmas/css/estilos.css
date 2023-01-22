@@ -1,0 +1,53 @@
+* {
+    color: blue;
+}
+p, span {
+    color: red;
+    width: 300px;
+}
+
+/*
+Esto es un comentario dentro de un documento CSS.
+*/
+
+h1 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: bold;
+    color: grey;
+    border: 1px solid black;
+    /*padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 20px;*/
+
+    /*Toma los valores en sentido horario*/
+    padding: 30px 15px 25px 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#mi_parrafo {
+    color: yellow;
+    font-size: 23px;
+    border: 1px solid orange;
+}
+
+/* Se recomienda usar clases para proyectos grandes */
+
+.miclase {
+    font-weight: bold;
+    color: lightblue;
+}
+
+/*section h1 {
+    font-weight: 400px;
+}*/

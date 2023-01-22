@@ -1,0 +1,30 @@
+/* Ejercicio 2.1
+
+Escriba un @mixin (como el mixin box-shadow del ejemplo). Algunos casos que podría probar
+son: un mixin que agrega un prefijo de proveedor, un mixin que agrega un margen fijo y relleno
+(padding), y un mixin que agrega propiedades de borde.
+Recuerde que los prefijos de proveedor son:
+
+• Android: -webkit-
+• Chrome: -webkit-
+• Firefox: -moz-
+• Internet Explorer: -ms-
+• iOS: -webkit-
+• Opera: -o-
+• Safari: -webkit*/
+
+@mixin proveedor($property, $value) {
+    -webikit-#{$property}: $value;
+    -moz-#{$property}: $value;
+    -ms-#{$property}: $value;
+    -o-#{$property}: $value;
+}  
+
+@mixin margen {
+    margin: 2px 4px;
+    padding: 3px;
+}
+
+@mixin borde {
+    border: 1px 2px;
+}
